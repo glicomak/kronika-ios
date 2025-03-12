@@ -18,18 +18,6 @@ struct ContentView: View {
     }
 }
 
-struct EntriesView: View {
-    var body: some View {
-        Text("Entries screen")
-    }
-}
-
-struct JournalsView: View {
-    var body: some View {
-        Text("Journals screen")
-    }
-}
-
 #Preview {
     ContentView()
 }
