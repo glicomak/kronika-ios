@@ -10,27 +10,8 @@
 		8BF465052D80AAEA006C28AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8BF465042D80AAEA006C28AF /* .gitignore */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8B195E552D80A7C50073C0FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8B195E3C2D80A7C20073C0FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B195E432D80A7C20073C0FE;
-			remoteInfo = Kronika;
-		};
-		8B195E5F2D80A7C60073C0FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8B195E3C2D80A7C20073C0FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B195E432D80A7C20073C0FE;
-			remoteInfo = Kronika;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		8B195E442D80A7C20073C0FE /* Kronika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kronika.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B195E542D80A7C50073C0FE /* KronikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KronikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B195E5E2D80A7C60073C0FE /* KronikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KronikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF465042D80AAEA006C28AF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,34 +21,10 @@
 			path = Kronika;
 			sourceTree = "<group>";
 		};
-		8B195E572D80A7C50073C0FE /* KronikaTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KronikaTests;
-			sourceTree = "<group>";
-		};
-		8B195E612D80A7C60073C0FE /* KronikaUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KronikaUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8B195E412D80A7C20073C0FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B195E512D80A7C50073C0FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B195E5B2D80A7C60073C0FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +39,6 @@
 			children = (
 				8BF465042D80AAEA006C28AF /* .gitignore */,
 				8B195E462D80A7C20073C0FE /* Kronika */,
-				8B195E572D80A7C50073C0FE /* KronikaTests */,
-				8B195E612D80A7C60073C0FE /* KronikaUITests */,
 				8B195E452D80A7C20073C0FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				8B195E442D80A7C20073C0FE /* Kronika.app */,
-				8B195E542D80A7C50073C0FE /* KronikaTests.xctest */,
-				8B195E5E2D80A7C60073C0FE /* KronikaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,52 +76,6 @@
 			productReference = 8B195E442D80A7C20073C0FE /* Kronika.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8B195E532D80A7C50073C0FE /* KronikaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B195E6B2D80A7C60073C0FE /* Build configuration list for PBXNativeTarget "KronikaTests" */;
-			buildPhases = (
-				8B195E502D80A7C50073C0FE /* Sources */,
-				8B195E512D80A7C50073C0FE /* Frameworks */,
-				8B195E522D80A7C50073C0FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8B195E562D80A7C50073C0FE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8B195E572D80A7C50073C0FE /* KronikaTests */,
-			);
-			name = KronikaTests;
-			packageProductDependencies = (
-			);
-			productName = KronikaTests;
-			productReference = 8B195E542D80A7C50073C0FE /* KronikaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8B195E5D2D80A7C60073C0FE /* KronikaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B195E6E2D80A7C60073C0FE /* Build configuration list for PBXNativeTarget "KronikaUITests" */;
-			buildPhases = (
-				8B195E5A2D80A7C60073C0FE /* Sources */,
-				8B195E5B2D80A7C60073C0FE /* Frameworks */,
-				8B195E5C2D80A7C60073C0FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8B195E602D80A7C60073C0FE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8B195E612D80A7C60073C0FE /* KronikaUITests */,
-			);
-			name = KronikaUITests;
-			packageProductDependencies = (
-			);
-			productName = KronikaUITests;
-			productReference = 8B195E5E2D80A7C60073C0FE /* KronikaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,14 +88,6 @@
 				TargetAttributes = {
 					8B195E432D80A7C20073C0FE = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					8B195E532D80A7C50073C0FE = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 8B195E432D80A7C20073C0FE;
-					};
-					8B195E5D2D80A7C60073C0FE = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 8B195E432D80A7C20073C0FE;
 					};
 				};
 			};
@@ -207,8 +106,6 @@
 			projectRoot = "";
 			targets = (
 				8B195E432D80A7C20073C0FE /* Kronika */,
-				8B195E532D80A7C50073C0FE /* KronikaTests */,
-				8B195E5D2D80A7C60073C0FE /* KronikaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,20 +119,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B195E522D80A7C50073C0FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B195E5C2D80A7C60073C0FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -246,34 +129,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B195E502D80A7C50073C0FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B195E5A2D80A7C60073C0FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8B195E562D80A7C50073C0FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8B195E432D80A7C20073C0FE /* Kronika */;
-			targetProxy = 8B195E552D80A7C50073C0FE /* PBXContainerItemProxy */;
-		};
-		8B195E602D80A7C60073C0FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8B195E432D80A7C20073C0FE /* Kronika */;
-			targetProxy = 8B195E5F2D80A7C60073C0FE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8B195E662D80A7C60073C0FE /* Debug */ = {
@@ -402,7 +258,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Kronika/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -430,7 +286,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Kronika/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -451,74 +307,6 @@
 			};
 			name = Release;
 		};
-		8B195E6C2D80A7C60073C0FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.glicomak.KronikaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kronika.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kronika";
-			};
-			name = Debug;
-		};
-		8B195E6D2D80A7C60073C0FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.glicomak.KronikaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kronika.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kronika";
-			};
-			name = Release;
-		};
-		8B195E6F2D80A7C60073C0FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.glicomak.KronikaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Kronika;
-			};
-			name = Debug;
-		};
-		8B195E702D80A7C60073C0FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.glicomak.KronikaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Kronika;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -536,24 +324,6 @@
 			buildConfigurations = (
 				8B195E692D80A7C60073C0FE /* Debug */,
 				8B195E6A2D80A7C60073C0FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B195E6B2D80A7C60073C0FE /* Build configuration list for PBXNativeTarget "KronikaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B195E6C2D80A7C60073C0FE /* Debug */,
-				8B195E6D2D80A7C60073C0FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B195E6E2D80A7C60073C0FE /* Build configuration list for PBXNativeTarget "KronikaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B195E6F2D80A7C60073C0FE /* Debug */,
-				8B195E702D80A7C60073C0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
