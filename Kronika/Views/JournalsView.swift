@@ -2,6 +2,8 @@ import SwiftUI
 import SwiftData
 
 struct JournalsView: View {
+    @Environment(\.modelContext) var context
+    
     @Query private var journals: [JournalModel]
     
     @State private var isShowingForm = false
@@ -27,14 +29,14 @@ struct JournalsView: View {
                     .padding(.horizontal)
                     
                     ForEach(journals) { journal in
-                        JournalCard(journal: journal)
+                        JournalCard(journal: journal, journals: journals, context: context)
                     }
                 }
                 .padding()
             }
         }
         .sheet(isPresented: $isShowingForm) {
-            NewJournalForm()
+            NewJournalForm(journalCount: journals.count, context: context)
         }
     }
 }

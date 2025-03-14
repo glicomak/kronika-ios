@@ -2,7 +2,9 @@ import SwiftUI
 import SwiftData
 
 struct NewJournalForm: View {
-    @Environment(\.modelContext) var context
+    let journalCount: Int
+    let context: ModelContext
+
     @Environment(\.dismiss) private var dismiss
     
     @State private var title = ""
@@ -35,7 +37,7 @@ struct NewJournalForm: View {
     }
     
     private func createJournal() {
-        let journal = JournalModel(title: title)
+        let journal = JournalModel(title: title, isActive: journalCount == 0)
         context.insert(journal)
     }
 }
