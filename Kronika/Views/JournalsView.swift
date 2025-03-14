@@ -1,14 +1,10 @@
 import SwiftUI
+import SwiftData
 
 struct JournalsView: View {
-    @State private var isShowingForm = false
+    @Query private var journals: [JournalModel]
     
-    let journals = [
-        JournalModel(title: "2025 January to March"),
-        JournalModel(title: "2025 April to June"),
-        JournalModel(title: "2025 July to September"),
-        JournalModel(title: "2025 October to December"),
-    ]
+    @State private var isShowingForm = false
     
     var body: some View {
         NavigationView {

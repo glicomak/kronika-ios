@@ -1,9 +1,9 @@
-import SwiftUI
+import Foundation
 import SwiftData
 
 @Model
 class JournalModel {
-    var id: UUID
+    @Attribute(.unique) var id: UUID
     var title: String
     
     init(title: String) {
