@@ -2,9 +2,9 @@ import SwiftUI
 import SwiftData
 
 struct JournalsView: View {
-    @Environment(\.modelContext) var context
-    
     @Query private var journals: [JournalModel]
+    
+    let context: ModelContext
     
     @State private var isShowingForm = false
     
@@ -36,7 +36,7 @@ struct JournalsView: View {
             }
         }
         .sheet(isPresented: $isShowingForm) {
-            NewJournalForm(journalCount: journals.count, context: context)
+            NewJournalView(journalCount: journals.count, context: context)
         }
     }
 }

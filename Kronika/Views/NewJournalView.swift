@@ -1,7 +1,7 @@
 import SwiftUI
 import SwiftData
 
-struct NewJournalForm: View {
+struct NewJournalView: View {
     let journalCount: Int
     let context: ModelContext
 
